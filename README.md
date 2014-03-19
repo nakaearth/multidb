@@ -1,7 +1,6 @@
-#まだ未対応でこれから実装！！！！！
-
-
-# Multidb
+multidb
+=======
+DBへデータを入れる時はマスターへ、読み込みはスレーブへと自動でしてくれるプラグインを開発（中）
 
 TODO: Write a gem description
 
