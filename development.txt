@@ -1,0 +1,3 @@
+ActiveRecord::ConnectionAdaptersモジュールの中のReaperクラスでconfigの設定を読み込みspec.configに配列で入る
+ので、メソッド名画findで始まるメソッドはspec.config[:host]の名前を取得してread用のDBにむくようにする。
+
