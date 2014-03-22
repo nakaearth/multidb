@@ -1,5 +1,8 @@
 require "multidb/version"
 
 module Multidb
-  # Your code goes here...
+  def self.setup
+    p "---- multidb -----"
+  end
 end
+
