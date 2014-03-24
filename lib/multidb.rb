@@ -1,8 +1,8 @@
-require "multidb/version"
+require 'active_record'
+require 'active_support/core_ext/module/delegation'
+require 'active_support/core_ext/module/attribute_accessors'
+require 'active_support/core_ext/module/aliasing'
 
-module Multidb
-  def self.setup
-    p "---- multidb -----"
-  end
-end
+require "multidb/version"
+require "multidb/connection_proxy"
 
