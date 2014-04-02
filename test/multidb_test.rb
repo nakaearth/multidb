@@ -1,4 +1,4 @@
-require 'multidb/connection_proxy'
+require "multidb"
 
-@connect = Multidb::ConnectionProxy.new
-@connect.setup
+@config = Multidb::Configuration
+
