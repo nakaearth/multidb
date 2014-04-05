@@ -1,3 +1,5 @@
+$:.unshift(File.dirname(__FILE__))
+
 require 'active_record'
 require 'active_support/core_ext/module/delegation'
 require 'active_support/core_ext/module/attribute_accessors'

@@ -1,4 +1,4 @@
 require "multidb"
 
-@config = Multidb::Configuration
+@config = Multidb::Configuration.new
 
