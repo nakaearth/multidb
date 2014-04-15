@@ -2,6 +2,7 @@ module Multidb
   class Balencer
     def  initialize(configuration)
       @configs = configuration
+      @connections = []
       if @configs
         @configs.each_pair do |name , config|
           @connections[name.to_sym].push(Multidb::Connection.new(config))
