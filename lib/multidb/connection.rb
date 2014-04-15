@@ -1,7 +1,8 @@
 module Multidb
   class Connection
 
-    def initialize(target)
+    def initialize(all_env_target)
+      target = all_env_target['RAILS_ENV'] || all_env_target['development']
       if target.is_a?(Hash)
         adapter = target[:adapter]
         begin

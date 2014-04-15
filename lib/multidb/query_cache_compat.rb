@@ -8,9 +8,9 @@ module Multidb
 #    def columns(*a, &b)
 #      send_to_current(:columns, *a, &b)
 #    end
-#    def insert(*a, &b)
-#      send_to_master(:insert, *a, &b)
-#    end
+    def insert(*a, &b)
+      send_to_master(:insert, *a, &b)
+    end
 #    def update(*a, &b)
 #      send_to_master(:update, *a, &b)
 #    end
